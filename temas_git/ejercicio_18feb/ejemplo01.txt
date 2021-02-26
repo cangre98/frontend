@@ -1,0 +1,2 @@
+HORA CREACION ARCHIVO EJERCICIO: jue. 18/02/2021 20:13:11,57 
+CertUtil: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.

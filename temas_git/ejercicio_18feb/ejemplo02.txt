@@ -1,0 +1,2 @@
+HOLA MUNDO, DESDE ARCHIVO DE TEXTO xD 
+CertUtil: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.

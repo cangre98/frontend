@@ -1,0 +1,61 @@
+C:\UCC\frontend\temas_git>
+C:\UCC\frontend\temas_git>mkdir ejercicio_18feb
+
+C:\UCC\frontend\temas_git>cd ejercicio_18feb
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>
+C:\UCC\frontend\temas_git\ejercicio_18feb>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: B0EB-E2DC
+
+ Directorio de C:\UCC\frontend\temas_git\ejercicio_18feb
+
+18/02/2021  08:11 p. m.    <DIR>          .
+18/02/2021  08:11 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  201.291.538.432 bytes libres
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>echo HORA CREACION ARCHIVO EJERCICIO: %date% %time% >>ejemplo01.txt
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: B0EB-E2DC
+
+ Directorio de C:\UCC\frontend\temas_git\ejercicio_18feb
+
+18/02/2021  08:13 p. m.    <DIR>          .
+18/02/2021  08:13 p. m.    <DIR>          ..
+18/02/2021  08:13 p. m.                63 ejemplo01.txt
+               1 archivos             63 bytes
+               2 dirs  201.291.399.168 bytes libres
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>more ejemplo01.txt
+HORA CREACION ARCHIVO EJERCICIO: jue. 18/02/2021 20:13:11,57
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>echo HOLA MUNDO, DESDE ARCHIVO DE TEXTO xD >>ejemplo02.txt
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>more ejemplo02.txt
+HOLA MUNDO, DESDE ARCHIVO DE TEXTO xD
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>certutil -hashfile ejemplo01.txt SHA256  | findstr /v hash
+5d93f82c89768dd5ed3139691cd377a5c755af24678c187131700b4ad9b7ed5f
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>certutil -hashfile ejemplo02.txt SHA256  | findstr /v hash
+f9a0fb77fa12dae97af6322a8c74d7c0d98cdcd43e3a1edcedad5e1badca187b
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>certutil -hashfile ejemplo01.txt SHA256  | findstr /v hash  >> ejemplo01.txt
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>certutil -hashfile ejemplo02.txt SHA256  | findstr /v hash  >> ejemplo02.txt
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>fc /L ejemplo01.txt ejemplo02.txt
+Comparando archivos ejemplo01.txt y EJEMPLO02.TXT
+***** ejemplo01.txt
+HORA CREACION ARCHIVO EJERCICIO: jue. 18/02/2021 20:13:11,57
+CertUtil: El proceso no tiene acceso al archivo porque estß siendo utilizado por otro proceso.
+***** EJEMPLO02.TXT
+HOLA MUNDO, DESDE ARCHIVO DE TEXTO xD
+CertUtil: El proceso no tiene acceso al archivo porque estß siendo utilizado por otro proceso.
+*****
+
+
+C:\UCC\frontend\temas_git\ejercicio_18feb>
