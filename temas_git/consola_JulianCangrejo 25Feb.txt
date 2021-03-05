@@ -1,0 +1,227 @@
+
+C:\UCC\frontend>cd ejercicio_25Feb
+
+C:\UCC\frontend\ejercicio_25Feb>git checkout -b nuevaRama25Feb
+Switched to a new branch 'nuevaRama25Feb'
+
+C:\UCC\frontend\ejercicio_25Feb>set > pruebas25feb.txt
+
+C:\UCC\frontend\ejercicio_25Feb>type pruebas25feb.txt
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ProBook\AppData\Roaming
+CLASSPATH=C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.jar
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=JCANGREJO
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+GRADLE_HOME=C:\Gradle\gradle-5.0
+HOMEDRIVE=C:
+HOMEPATH=\Users\ProBook
+INCLUDE=C:\Program Files\IBM\WebSphere MQ\tools\c\include;C:\Program Files\IBM\WebSphere MQ\tools\cplus\include
+JAVA_HOME=C:\Java
+LIB=C:\Program Files\IBM\WebSphere MQ\tools\lib64;C:\Program Files\IBM\WebSphere MQ\tools\lib
+LOCALAPPDATA=C:\Users\ProBook\AppData\Local
+LOGONSERVER=\\JCANGREJO
+MQ_FILE_PATH=C:\Program Files\IBM\WebSphere MQ
+MQ_JAVA_DATA_PATH=C:\ProgramData\IBM\MQ
+MQ_JAVA_INSTALL_PATH=C:\Program Files\IBM\WebSphere MQ\java
+MQ_JAVA_LIB_PATH=C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\Program Files\IBM\WebSphere MQ\java\lib
+MQ_JRE_PATH=C:\Program Files\IBM\WebSphere MQ\java\jre
+NUMBER_OF_PROCESSORS=4
+OneDrive=C:\Users\ProBook\OneDrive
+OPENSSL_CONF=C:\Program Files\OpenSSL-Win64\bin\openssl.cfg
+OS=Windows_NT
+Path=C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\IBM\WebSphere MQ\java\lib;C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\Program Files \IBM\WebSphere\AppClient\bin;C:\Program Files \IBM\WebSphere\AppClient\java\jre\bin;C:\Program Files \IBM\WebSphere\AppClient\java\jre\bin\j9vm;C:\Java\bin;C:\Program Files \Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files \Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Gradle\gradle-5.0\bin;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\MATLAB\R2019a\bin;C:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Users\ProBook\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\ProBook\AppData\Roaming\npm;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PT7HOME=C:\Program Files\Cisco Packet Tracer 7.3.0
+PUBLIC=C:\Users\Public
+QT_DEVICE_PIXEL_RATIO=auto
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\ProBook\AppData\Local\Temp
+TMP=C:\Users\ProBook\AppData\Local\Temp
+TOMCAT_HOME_7=C:\Tools\apache-tomcat-8.5.4
+USERDOMAIN=JCANGREJO
+USERDOMAIN_ROAMINGPROFILE=JCANGREJO
+USERNAME=ProBook
+USERPROFILE=C:\Users\ProBook
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+windir=C:\WINDOWS
+
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>git status
+On branch nuevaRama25Feb
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\UCC\frontend\ejercicio_25Feb>git add .
+
+C:\UCC\frontend\ejercicio_25Feb>git status
+On branch nuevaRama25Feb
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   pruebas25feb.txt
+
+
+C:\UCC\frontend\ejercicio_25Feb>git commit -m "Commmit ejercicio 25 Febrero JCANGREJO"
+[nuevaRama25Feb 08688ab] Commmit ejercicio 25 Febrero JCANGREJO
+ 1 file changed, 55 insertions(+)
+ create mode 100644 ejercicio_25Feb/pruebas25feb.txt
+
+C:\UCC\frontend\ejercicio_25Feb>git status
+On branch nuevaRama25Feb
+nothing to commit, working tree clean
+
+C:\UCC\frontend\ejercicio_25Feb>git checkout master
+Deletion of directory 'ejercicio_25Feb' failed. Should I try again? (y/n) n
+Switched to branch 'master'
+
+C:\UCC\frontend\ejercicio_25Feb>git merge nuevaRama25FEb
+Updating 50945a6..08688ab
+Fast-forward
+ ejercicio_25Feb/pruebas25feb.txt | 55 ++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 55 insertions(+)
+ create mode 100644 ejercicio_25Feb/pruebas25feb.txt
+
+C:\UCC\frontend\ejercicio_25Feb>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: B0EB-E2DC
+
+ Directorio de C:\UCC\frontend\ejercicio_25Feb
+
+25/02/2021  08:37 p. m.    <DIR>          .
+25/02/2021  08:37 p. m.    <DIR>          ..
+25/02/2021  08:37 p. m.             3.868 pruebas25feb.txt
+               1 archivos          3.868 bytes
+               2 dirs  195.304.271.872 bytes libres
+
+C:\UCC\frontend\ejercicio_25Feb>type pruebas25feb.txt
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ProBook\AppData\Roaming
+CLASSPATH=C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\java\lib\com.ibm.mq.jar
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=JCANGREJO
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+GRADLE_HOME=C:\Gradle\gradle-5.0
+HOMEDRIVE=C:
+HOMEPATH=\Users\ProBook
+INCLUDE=C:\Program Files\IBM\WebSphere MQ\tools\c\include;C:\Program Files\IBM\WebSphere MQ\tools\cplus\include
+JAVA_HOME=C:\Java
+LIB=C:\Program Files\IBM\WebSphere MQ\tools\lib64;C:\Program Files\IBM\WebSphere MQ\tools\lib
+LOCALAPPDATA=C:\Users\ProBook\AppData\Local
+LOGONSERVER=\\JCANGREJO
+MQ_FILE_PATH=C:\Program Files\IBM\WebSphere MQ
+MQ_JAVA_DATA_PATH=C:\ProgramData\IBM\MQ
+MQ_JAVA_INSTALL_PATH=C:\Program Files\IBM\WebSphere MQ\java
+MQ_JAVA_LIB_PATH=C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\Program Files\IBM\WebSphere MQ\java\lib
+MQ_JRE_PATH=C:\Program Files\IBM\WebSphere MQ\java\jre
+NUMBER_OF_PROCESSORS=4
+OneDrive=C:\Users\ProBook\OneDrive
+OPENSSL_CONF=C:\Program Files\OpenSSL-Win64\bin\openssl.cfg
+OS=Windows_NT
+Path=C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\IBM\WebSphere MQ\java\lib;C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\Program Files \IBM\WebSphere\AppClient\bin;C:\Program Files \IBM\WebSphere\AppClient\java\jre\bin;C:\Program Files \IBM\WebSphere\AppClient\java\jre\bin\j9vm;C:\Java\bin;C:\Program Files \Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files \Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Gradle\gradle-5.0\bin;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\MATLAB\R2019a\bin;C:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Users\ProBook\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\ProBook\AppData\Roaming\npm;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4e03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PT7HOME=C:\Program Files\Cisco Packet Tracer 7.3.0
+PUBLIC=C:\Users\Public
+QT_DEVICE_PIXEL_RATIO=auto
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\ProBook\AppData\Local\Temp
+TMP=C:\Users\ProBook\AppData\Local\Temp
+TOMCAT_HOME_7=C:\Tools\apache-tomcat-8.5.4
+USERDOMAIN=JCANGREJO
+USERDOMAIN_ROAMINGPROFILE=JCANGREJO
+USERNAME=ProBook
+USERPROFILE=C:\Users\ProBook
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+windir=C:\WINDOWS
+
+C:\UCC\frontend\ejercicio_25Feb>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>git rm pruebas25feb.txt
+Deletion of directory 'ejercicio_25Feb' failed. Should I try again? (y/n) y
+Deletion of directory 'ejercicio_25Feb' failed. Should I try again? (y/n) n
+rm 'ejercicio_25Feb/pruebas25feb.txt'
+
+C:\UCC\frontend\ejercicio_25Feb>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    pruebas25feb.txt
+
+
+C:\UCC\frontend\ejercicio_25Feb>git commit -m "Commit Eliminacion de Archivo"
+[master 780f454] Commit Eliminacion de Archivo
+ 1 file changed, 55 deletions(-)
+ delete mode 100644 ejercicio_25Feb/pruebas25feb.txt
+
+C:\UCC\frontend\ejercicio_25Feb>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\UCC\frontend\ejercicio_25Feb>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: B0EB-E2DC
+
+ Directorio de C:\UCC\frontend\ejercicio_25Feb
+
+25/02/2021  08:38 p. m.    <DIR>          .
+25/02/2021  08:38 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  195.303.682.048 bytes libres
+
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>
+C:\UCC\frontend\ejercicio_25Feb>set | findstr USER
+ALLUSERSPROFILE=C:\ProgramData
+FPS_BROWSER_USER_PROFILE_STRING=Default
+USERDOMAIN=JCANGREJO
+USERDOMAIN_ROAMINGPROFILE=JCANGREJO
+USERNAME=ProBook
+USERPROFILE=C:\Users\ProBook
+
+C:\UCC\frontend\ejercicio_25Feb>
