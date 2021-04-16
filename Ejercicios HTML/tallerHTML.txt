@@ -1,0 +1,584 @@
+Microsoft Windows [Versión 10.0.19042.804]
+(c) 2020 Microsoft Corporation. Todos los derechos reservados.
+
+C:\UCC\frontend>
+C:\UCC\frontend>
+C:\UCC\frontend>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Ejercicios HTML/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Ejercicios HTML/EjercicioHTML.html
+
+
+C:\UCC\frontend>git commit -m "Ejercicio1"
+[master d8b4e80] Ejercicio1
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+)
+ create mode 100644 Ejercicios HTML/EjercicioHTML.html
+
+C:\UCC\frontend>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\UCC\frontend>git push
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 502 bytes | 502.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/cangre98/frontend.git
+   0cb86dc..d8b4e80  master -> master
+
+C:\UCC\frontend>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\UCC\frontend>git commit -m "Ejercicio2"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Ejercicios HTML/EjercicioHTML.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio2"
+[master 33a319f] Ejercicio2
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cangre98/frontend.git
+   d8b4e80..33a319f  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio3"
+[master 42b71fc] Ejercicio3
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 387 bytes | 387.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cangre98/frontend.git
+   33a319f..42b71fc  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio4"
+[master f5b7831] Ejercicio4
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 409 bytes | 409.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cangre98/frontend.git
+   42b71fc..f5b7831  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio5"
+[master 7c6dec1] Ejercicio5
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+), 19 deletions(-)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 433 bytes | 433.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   f5b7831..7c6dec1  master -> master
+
+C:\UCC\frontend>git add .3
+fatal: pathspec '.3' did not match any files
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio6"
+[master 002c3f3] Ejercicio6
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 12 insertions(+), 4 deletions(-)
+ create mode 100644 Ejercicios HTML/principal.html
+
+C:\UCC\frontend>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 533 bytes | 533.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   7c6dec1..002c3f3  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Ejercicios HTML/EjercicioHTML.html
+        modified:   Ejercicios HTML/principal.html
+
+
+C:\UCC\frontend>git commit -m "Ejercicio7"
+[master 2cd1175] Ejercicio7
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 11 deletions(-)
+ delete mode 100644 Ejercicios HTML/EjercicioHTML.html
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 430 bytes | 430.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   002c3f3..2cd1175  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio8"
+[master 2fdac16] Ejercicio8
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 464 bytes | 464.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   2cd1175..2fdac16  master -> master
+
+C:\UCC\frontend>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio9"
+[master 3da001d] Ejercicio9
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100644 Ejercicios HTML/imagen1.jpg
+
+C:\UCC\frontend>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 34.02 KiB | 34.02 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   2fdac16..3da001d  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio10"
+[master 62afe1a] Ejercicio10
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 24 insertions(+), 1 deletion(-)
+ rename Ejercicios HTML/{ => imagenes}/imagen1.jpg (100%)
+ create mode 100644 Ejercicios HTML/imagenes/imagen2.jpg
+ create mode 100644 Ejercicios HTML/paginaCarro.html
+ create mode 100644 Ejercicios HTML/paginaPerros.html
+
+C:\UCC\frontend>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 45.39 KiB | 22.70 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   3da001d..62afe1a  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio11"
+[master 9e95346] Ejercicio11
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 12 insertions(+), 24 deletions(-)
+ delete mode 100644 Ejercicios HTML/imagenes/imagen1.jpg
+ delete mode 100644 Ejercicios HTML/imagenes/imagen2.jpg
+ delete mode 100644 Ejercicios HTML/paginaCarro.html
+ delete mode 100644 Ejercicios HTML/paginaPerros.html
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 516 bytes | 516.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   62afe1a..9e95346  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio12"
+[master debfbf7] Ejercicio12
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 13 deletions(-)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 457 bytes | 457.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   9e95346..debfbf7  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio13"
+[master b56a5a4] Ejercicio13
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 30 insertions(+), 14 deletions(-)
+ rewrite Ejercicios HTML/principal.html (81%)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 620 bytes | 620.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   debfbf7..b56a5a4  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio14"
+[master 3759aa0] Ejercicio14
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 28 insertions(+), 30 deletions(-)
+ rewrite Ejercicios HTML/principal.html (94%)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 515 bytes | 515.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   b56a5a4..3759aa0  master -> master
+
+C:\UCC\frontend>git commit -m "Ejercicio14"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Ejercicios HTML/principal.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio14"
+[master 161bb9f] Ejercicio14
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 31 insertions(+), 28 deletions(-)
+ rewrite Ejercicios HTML/principal.html (64%)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 520 bytes | 520.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cangre98/frontend.git
+   3759aa0..161bb9f  master -> master
+
+C:\UCC\frontend>git add .
+
+C:\UCC\frontend>git commit -m "Ejercicio15"
+[master c07aafc] Ejercicio15
+ Committer: Julian Sebastian Cangrejo Perafan <VYG0355@intranet.vygts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 36 insertions(+), 31 deletions(-)
+ rewrite Ejercicios HTML/principal.html (73%)
+
+C:\UCC\frontend>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 582 bytes | 582.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cangre98/frontend.git
+   161bb9f..c07aafc  master -> master
+
+C:\UCC\frontend>set | findstr USER
+ALLUSERSPROFILE=C:\ProgramData
+FPS_BROWSER_USER_PROFILE_STRING=Default
+USERDNSDOMAIN=INTRANET.VYGTS.COM
+USERDOMAIN=INTRAVYGTS
+USERDOMAIN_ROAMINGPROFILE=INTRAVYGTS
+USERNAME=VYG0355
+USERPROFILE=C:\Users\vyg0355
+
+C:\UCC\frontend>
