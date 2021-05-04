@@ -6,7 +6,7 @@ const vehiculo = {
     capacidadTanque: 100,
     cantCombustible: 1,
     kilometroXlitro: 1,
-    radioLlanta: 33,
+    radioLlanta: 15,
     color: 'Rojo',
     encendido: false,
     kilometrajeVehiculo: 0,
